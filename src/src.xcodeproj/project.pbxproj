@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C93AE0C218F969C5007AF369 /* addrman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = addrman.cpp; sourceTree = "<group>"; };
+		C93AE0C318F969C5007AF369 /* addrman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addrman.h; sourceTree = "<group>"; };
+		C93AE0C418F969C5007AF369 /* alert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = alert.cpp; sourceTree = "<group>"; };
+		C93AE0C518F969C5007AF369 /* alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alert.h; sourceTree = "<group>"; };
+		C93AE0C618F969C5007AF369 /* allocators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = allocators.h; sourceTree = "<group>"; };
+		C93AE0C718F969C5007AF369 /* base58.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base58.h; sourceTree = "<group>"; };
+		C93AE0C818F969C5007AF369 /* bignum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bignum.h; sourceTree = "<group>"; };
+		C93AE0C918F969C5007AF369 /* bitcoinrpc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bitcoinrpc.cpp; sourceTree = "<group>"; };
+		C93AE0CA18F969C5007AF369 /* bitcoinrpc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bitcoinrpc.h; sourceTree = "<group>"; };
+		C93AE0CB18F969C5007AF369 /* checkpoints.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checkpoints.cpp; sourceTree = "<group>"; };
+		C93AE0CC18F969C5007AF369 /* checkpoints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = checkpoints.h; sourceTree = "<group>"; };
+		C93AE0CD18F969C5007AF369 /* clientversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clientversion.h; sourceTree = "<group>"; };
+		C93AE0CE18F969C5007AF369 /* coincontrol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coincontrol.h; sourceTree = "<group>"; };
+		C93AE0CF18F969C5007AF369 /* compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compat.h; sourceTree = "<group>"; };
+		C93AE0D018F969C5007AF369 /* crypter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = crypter.cpp; sourceTree = "<group>"; };
+		C93AE0D118F969C5007AF369 /* crypter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypter.h; sourceTree = "<group>"; };
+		C93AE0D218F969C5007AF369 /* db.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = db.cpp; sourceTree = "<group>"; };
+		C93AE0D318F969C5007AF369 /* db.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = db.h; sourceTree = "<group>"; };
+		C93AE0D418F969C5007AF369 /* init.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = init.cpp; sourceTree = "<group>"; };
+		C93AE0D518F969C5007AF369 /* init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
+		C93AE0D618F969C5007AF369 /* irc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = irc.cpp; sourceTree = "<group>"; };
+		C93AE0D718F969C5007AF369 /* irc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = irc.h; sourceTree = "<group>"; };
+		C93AE0D818F969C5007AF369 /* json */ = {isa = PBXFileReference; lastKnownFileType = folder; path = json; sourceTree = "<group>"; };
+		C93AE0D918F969C5007AF369 /* kernel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kernel.cpp; sourceTree = "<group>"; };
+		C93AE0DA18F969C5007AF369 /* kernel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kernel.h; sourceTree = "<group>"; };
+		C93AE0DB18F969C5007AF369 /* key.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = key.cpp; sourceTree = "<group>"; };
+		C93AE0DC18F969C5007AF369 /* key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = key.h; sourceTree = "<group>"; };
+		C93AE0DD18F969C5007AF369 /* keystore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = keystore.cpp; sourceTree = "<group>"; };
+		C93AE0DE18F969C5007AF369 /* keystore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keystore.h; sourceTree = "<group>"; };
+		C93AE0DF18F969C5007AF369 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C93AE0E018F969C5007AF369 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		C93AE0E118F969C5007AF369 /* makefile.bsd */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.bsd; sourceTree = "<group>"; };
+		C93AE0E218F969C5007AF369 /* makefile.linux-mingw */ = {isa = PBXFileReference; lastKnownFileType = text; path = "makefile.linux-mingw"; sourceTree = "<group>"; };
+		C93AE0E318F969C5007AF369 /* makefile.mingw */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.mingw; sourceTree = "<group>"; };
+		C93AE0E418F969C5007AF369 /* makefile.osx */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.osx; sourceTree = "<group>"; };
+		C93AE0E518F969C5007AF369 /* makefile.unix */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.unix; sourceTree = "<group>"; };
+		C93AE0E618F969C5007AF369 /* mruset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mruset.h; sourceTree = "<group>"; };
+		C93AE0E718F969C5007AF369 /* net.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = net.cpp; sourceTree = "<group>"; };
+		C93AE0E818F969C5007AF369 /* net.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		C93AE0E918F969C5007AF369 /* netbase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = netbase.cpp; sourceTree = "<group>"; };
+		C93AE0EA18F969C5007AF369 /* netbase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netbase.h; sourceTree = "<group>"; };
+		C93AE0EB18F969C5007AF369 /* noui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = noui.cpp; sourceTree = "<group>"; };
+		C93AE0EC18F969C5007AF369 /* obj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = obj; sourceTree = "<group>"; };
+		C93AE0ED18F969C5007AF369 /* obj-test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "obj-test"; sourceTree = "<group>"; };
+		C93AE0EE18F969C5007AF369 /* pbkdf2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pbkdf2.cpp; sourceTree = "<group>"; };
+		C93AE0EF18F969C5007AF369 /* pbkdf2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pbkdf2.h; sourceTree = "<group>"; };
+		C93AE0F018F969C5007AF369 /* protocol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = protocol.cpp; sourceTree = "<group>"; };
+		C93AE0F118F969C5007AF369 /* protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = protocol.h; sourceTree = "<group>"; };
+		C93AE0F218F969C5007AF369 /* qt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = qt; sourceTree = "<group>"; };
+		C93AE0F318F969C5007AF369 /* rpcblockchain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rpcblockchain.cpp; sourceTree = "<group>"; };
+		C93AE0F418F969C5007AF369 /* rpcdump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rpcdump.cpp; sourceTree = "<group>"; };
+		C93AE0F518F969C5007AF369 /* rpcmining.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rpcmining.cpp; sourceTree = "<group>"; };
+		C93AE0F618F969C5007AF369 /* rpcnet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rpcnet.cpp; sourceTree = "<group>"; };
+		C93AE0F718F969C5007AF369 /* rpcrawtransaction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rpcrawtransaction.cpp; sourceTree = "<group>"; };
+		C93AE0F818F969C5007AF369 /* rpcwallet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rpcwallet.cpp; sourceTree = "<group>"; };
+		C93AE0F918F969C5007AF369 /* script.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = script.cpp; sourceTree = "<group>"; };
+		C93AE0FA18F969C5007AF369 /* script.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = script.h; sourceTree = "<group>"; };
+		C93AE0FB18F969C5007AF369 /* scrypt-x86.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "scrypt-x86.S"; sourceTree = "<group>"; };
+		C93AE0FC18F969C5007AF369 /* scrypt-x86_64.S */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = "scrypt-x86_64.S"; sourceTree = "<group>"; };
+		C93AE0FD18F969C5007AF369 /* scrypt_mine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = scrypt_mine.cpp; sourceTree = "<group>"; };
+		C93AE0FE18F969C5007AF369 /* scrypt_mine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scrypt_mine.h; sourceTree = "<group>"; };
+		C93AE0FF18F969C5007AF369 /* serialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = serialize.h; sourceTree = "<group>"; };
+		C93AE10018F969C5007AF369 /* strlcpy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strlcpy.h; sourceTree = "<group>"; };
+		C93AE10118F969C5007AF369 /* sync.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sync.cpp; sourceTree = "<group>"; };
+		C93AE10218F969C5007AF369 /* sync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sync.h; sourceTree = "<group>"; };
+		C93AE10318F969C5007AF369 /* test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test; sourceTree = "<group>"; };
+		C93AE10418F969C5007AF369 /* ui_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ui_interface.h; sourceTree = "<group>"; };
+		C93AE10518F969C5007AF369 /* uint256.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = uint256.h; sourceTree = "<group>"; };
+		C93AE10618F969C5007AF369 /* util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		C93AE10718F969C5007AF369 /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		C93AE10818F969C5007AF369 /* version.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = version.cpp; sourceTree = "<group>"; };
+		C93AE10918F969C5007AF369 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		C93AE10A18F969C5007AF369 /* wallet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wallet.cpp; sourceTree = "<group>"; };
+		C93AE10B18F969C5007AF369 /* wallet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wallet.h; sourceTree = "<group>"; };
+		C93AE10C18F969C5007AF369 /* walletdb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = walletdb.cpp; sourceTree = "<group>"; };
+		C93AE10D18F969C5007AF369 /* walletdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = walletdb.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C93AE0BC18F969C5007AF369 = {
+			isa = PBXGroup;
+			children = (
+				C93AE0C218F969C5007AF369 /* addrman.cpp */,
+				C93AE0C318F969C5007AF369 /* addrman.h */,
+				C93AE0C418F969C5007AF369 /* alert.cpp */,
+				C93AE0C518F969C5007AF369 /* alert.h */,
+				C93AE0C618F969C5007AF369 /* allocators.h */,
+				C93AE0C718F969C5007AF369 /* base58.h */,
+				C93AE0C818F969C5007AF369 /* bignum.h */,
+				C93AE0C918F969C5007AF369 /* bitcoinrpc.cpp */,
+				C93AE0CA18F969C5007AF369 /* bitcoinrpc.h */,
+				C93AE0CB18F969C5007AF369 /* checkpoints.cpp */,
+				C93AE0CC18F969C5007AF369 /* checkpoints.h */,
+				C93AE0CD18F969C5007AF369 /* clientversion.h */,
+				C93AE0CE18F969C5007AF369 /* coincontrol.h */,
+				C93AE0CF18F969C5007AF369 /* compat.h */,
+				C93AE0D018F969C5007AF369 /* crypter.cpp */,
+				C93AE0D118F969C5007AF369 /* crypter.h */,
+				C93AE0D218F969C5007AF369 /* db.cpp */,
+				C93AE0D318F969C5007AF369 /* db.h */,
+				C93AE0D418F969C5007AF369 /* init.cpp */,
+				C93AE0D518F969C5007AF369 /* init.h */,
+				C93AE0D618F969C5007AF369 /* irc.cpp */,
+				C93AE0D718F969C5007AF369 /* irc.h */,
+				C93AE0D818F969C5007AF369 /* json */,
+				C93AE0D918F969C5007AF369 /* kernel.cpp */,
+				C93AE0DA18F969C5007AF369 /* kernel.h */,
+				C93AE0DB18F969C5007AF369 /* key.cpp */,
+				C93AE0DC18F969C5007AF369 /* key.h */,
+				C93AE0DD18F969C5007AF369 /* keystore.cpp */,
+				C93AE0DE18F969C5007AF369 /* keystore.h */,
+				C93AE0DF18F969C5007AF369 /* main.cpp */,
+				C93AE0E018F969C5007AF369 /* main.h */,
+				C93AE0E118F969C5007AF369 /* makefile.bsd */,
+				C93AE0E218F969C5007AF369 /* makefile.linux-mingw */,
+				C93AE0E318F969C5007AF369 /* makefile.mingw */,
+				C93AE0E418F969C5007AF369 /* makefile.osx */,
+				C93AE0E518F969C5007AF369 /* makefile.unix */,
+				C93AE0E618F969C5007AF369 /* mruset.h */,
+				C93AE0E718F969C5007AF369 /* net.cpp */,
+				C93AE0E818F969C5007AF369 /* net.h */,
+				C93AE0E918F969C5007AF369 /* netbase.cpp */,
+				C93AE0EA18F969C5007AF369 /* netbase.h */,
+				C93AE0EB18F969C5007AF369 /* noui.cpp */,
+				C93AE0EC18F969C5007AF369 /* obj */,
+				C93AE0ED18F969C5007AF369 /* obj-test */,
+				C93AE0EE18F969C5007AF369 /* pbkdf2.cpp */,
+				C93AE0EF18F969C5007AF369 /* pbkdf2.h */,
+				C93AE0F018F969C5007AF369 /* protocol.cpp */,
+				C93AE0F118F969C5007AF369 /* protocol.h */,
+				C93AE0F218F969C5007AF369 /* qt */,
+				C93AE0F318F969C5007AF369 /* rpcblockchain.cpp */,
+				C93AE0F418F969C5007AF369 /* rpcdump.cpp */,
+				C93AE0F518F969C5007AF369 /* rpcmining.cpp */,
+				C93AE0F618F969C5007AF369 /* rpcnet.cpp */,
+				C93AE0F718F969C5007AF369 /* rpcrawtransaction.cpp */,
+				C93AE0F818F969C5007AF369 /* rpcwallet.cpp */,
+				C93AE0F918F969C5007AF369 /* script.cpp */,
+				C93AE0FA18F969C5007AF369 /* script.h */,
+				C93AE0FB18F969C5007AF369 /* scrypt-x86.S */,
+				C93AE0FC18F969C5007AF369 /* scrypt-x86_64.S */,
+				C93AE0FD18F969C5007AF369 /* scrypt_mine.cpp */,
+				C93AE0FE18F969C5007AF369 /* scrypt_mine.h */,
+				C93AE0FF18F969C5007AF369 /* serialize.h */,
+				C93AE10018F969C5007AF369 /* strlcpy.h */,
+				C93AE10118F969C5007AF369 /* sync.cpp */,
+				C93AE10218F969C5007AF369 /* sync.h */,
+				C93AE10318F969C5007AF369 /* test */,
+				C93AE10418F969C5007AF369 /* ui_interface.h */,
+				C93AE10518F969C5007AF369 /* uint256.h */,
+				C93AE10618F969C5007AF369 /* util.cpp */,
+				C93AE10718F969C5007AF369 /* util.h */,
+				C93AE10818F969C5007AF369 /* version.cpp */,
+				C93AE10918F969C5007AF369 /* version.h */,
+				C93AE10A18F969C5007AF369 /* wallet.cpp */,
+				C93AE10B18F969C5007AF369 /* wallet.h */,
+				C93AE10C18F969C5007AF369 /* walletdb.cpp */,
+				C93AE10D18F969C5007AF369 /* walletdb.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C93AE0C118F969C5007AF369 /* src */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = C93AE10E18F969C5007AF369 /* Build configuration list for PBXLegacyTarget "src" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/matt/Programming/Latium/latium/src;
+			dependencies = (
+			);
+			name = src;
+			passBuildSettingsInEnvironment = 1;
+			productName = src;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		C93AE0BD18F969C5007AF369 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C93AE0C018F969C5007AF369 /* Build configuration list for PBXProject "src" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C93AE0BC18F969C5007AF369;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93AE0C118F969C5007AF369 /* src */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		C93AE0BE18F969C5007AF369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C93AE0BF18F969C5007AF369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		C93AE10F18F969C5007AF369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Debug;
+		};
+		C93AE11018F969C5007AF369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93AE0C018F969C5007AF369 /* Build configuration list for PBXProject "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93AE0BE18F969C5007AF369 /* Debug */,
+				C93AE0BF18F969C5007AF369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93AE10E18F969C5007AF369 /* Build configuration list for PBXLegacyTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93AE10F18F969C5007AF369 /* Debug */,
+				C93AE11018F969C5007AF369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C93AE0BD18F969C5007AF369 /* Project object */;
+}

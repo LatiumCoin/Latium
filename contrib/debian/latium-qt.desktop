@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Latium
+Comment=Latium P2P Cryptocurrency
+Comment[fr]=Latium, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Latium, eşten eşe kriptografik sanal para birimi
+Comment[es]=Latium, una criptomoneda P2P
+Exec=/usr/bin/latium-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/latium;
+Categories=Office;
