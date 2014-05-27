@@ -55,19 +55,10 @@ static void ThreadSafeMessageBox(const std::string& message, const std::string& 
     }
 }
 
-static bool ThreadSafeAskFee(int64 nFeeRequired, const std::string& strCaption)
-{
-    if(!guiref)
-        return false;
-    if(nFeeRequired < MIN_TX_FEE || nFeeRequired <= nTransactionFee || fDaemon)
-        return true;
-    bool payFee = false;
+static bool ThreadSafeAskFee(int64 nFeeRequired, const std::string& strCaption) {
 
-    QMetaObject::invokeMethod(guiref, "askFee", GUIUtil::blockingGUIThreadConnection(),
-                               Q_ARG(qint64, nFeeRequired),
-                               Q_ARG(bool*, &payFee));
+    return true; // With latium never ask for fee
 
-    return payFee;
 }
 
 static void ThreadSafeHandleURI(const std::string& strURI)

@@ -252,7 +252,7 @@ CPrivKey CKey::GetPrivKey() const
     CPrivKey vchPrivKey(nSize, 0);
     unsigned char* pbegin = &vchPrivKey[0];
     if (i2d_ECPrivateKey(pkey, &pbegin) != nSize)
-        throw key_error("CKey::GetPrivKey() : i2d_ECPrivateKey returned unexpected size");
+        throw key_error("CKey::GetPrivKey() : i2d_ECPrivateKey returned unexpected size"); 
     return vchPrivKey;
 }
 
